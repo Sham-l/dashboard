@@ -1,0 +1,111 @@
+.section--second{
+    display: flex;
+    flex-direction: row;
+gap: 1rem;
+}
+.section--second--first--child{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    border-radius: 1rem;
+    max-width: 23vw;
+    box-sizing: border-box;
+    gap: 2px;
+    max-height: 35vh;
+    contain: content;
+}
+.ul2{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    /* background-color: rgb(13, 121, 121); */
+    gap: 15px;
+
+}
+
+.ul2 a{
+    text-decoration: none;
+    font-size: .7rem;
+    
+}
+.three--two h5{
+    font-size: 1rem;
+
+}
+.three--two p{
+    font-size: .7rem;
+
+}
+.three--two{
+    line-height: 1.1rem;
+}
+.four{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: .8rem;
+    gap: 10px;
+}
+.section--second--second--child{
+    background-color:white;
+    contain: content;
+    min-height: 35vh;
+    max-height: 35vh;
+    border-radius: 1rem;
+    padding: 10px;
+    min-width:42vw;
+    max-width: 42vw;
+    
+
+    
+    
+    
+}
+.img1{
+    height: 100%;
+    width:100%;
+    border-radius: 1.5rem;
+}
+.profile--pic{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.profile--one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-block: .5rem;
+    padding-inline: 2rem;
+    border-radius: 1.5rem;
+}
+.credit--card{
+    box-shadow: 0px 9px 4px 0px rgb(122, 159, 214);
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 1rem;
+    background: linear-gradient(to right,rgb(38, 32, 128),rgb(49, 82, 172),rgb(148, 156, 192));
+}
+.profile--section{
+    display: flex;
+    flex-direction: column;
+gap: 1rem;
+}
+.profile--two{
+    display: flex;
+    flex-direction: column;
+    gap: 1.05rem;
+}
+.profile--three{
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 34vh;
+
+    
+}
